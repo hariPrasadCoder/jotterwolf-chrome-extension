@@ -1,0 +1,102 @@
+/* 2023 Damian Janzi */
+#chrls-full-modal {
+    height: 100vh;
+    /* set the height of the sidebar to take up the full height of the parent element */
+    width: 100vw;
+    position: fixed;
+    /* position the sidebar so it doesn't move when the main content is scrolled */
+    right: 0;
+    /* position the sidebar at the right of the parent element */
+    background-color: #ffffff;
+    /* set the background color of the sidebar */
+    border: none;
+    padding: 0px;
+    /* add some padding to the inside of the sidebar */
+    z-index: 999999999;
+    /* set the z-index to 99999 to ensure the sidebar appears on top of other elements */
+    transition: transform 0.8s ease;
+}
+
+#chrls-full-close-button {
+    background-color: rgba(200, 200, 200, 0.5);
+    height: 40px;
+    width: 40px;
+    border: none;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+    position: sticky;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+    /* set the border radius to 50% to make the button round */
+    z-index: 999999;
+    display: flex;
+    /* center the x vertically and horizontally */
+    align-items: center;
+    justify-content: center;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    visibility: hidden;
+}
+
+
+#chrls-iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border: none;
+}
+
+/* 2023 Damian Janzi */
+#chrls-sidebar-modal {
+    height: 100vh;
+    /* set the height of the sidebar to take up the full height of the parent element */
+    position: fixed;
+    /* position the sidebar so it doesn't move when the main content is scrolled */
+    top: 0;
+    /* position the sidebar at the right of the parent element */
+    background-color: #ffffff;
+    /* set the background color of the sidebar */
+    border: none;
+    padding: 0px;
+    /* add some padding to the inside of the sidebar */
+    z-index: 999999999;
+    /* set the z-index to 99999 to ensure the sidebar appears on top of other elements */
+    box-shadow: -5px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    /* add a 5px left offset shadow with a 5px blur and 0px spread */
+    transition: transform 0.8s ease;
+}
+
+#chrls-sidebar-close-button {
+    background-color: rgba(200, 200, 200, 0.5);
+    height: 40px;
+    width: 40px;
+    border: none;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+    position: sticky;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+    /* set the border radius to 50% to make the button round */
+    z-index: 999999;
+    display: flex;
+    /* center the x vertically and horizontally */
+    align-items: center;
+    justify-content: center;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    visibility: hidden;
+}
+
+
+#chrls-iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border: none;
+}

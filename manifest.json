@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "Charles - the Chrome extension plugin",
+  "description": "Your description goes here.",
+  "version": "0.1",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://bubblehacks.io/*"
+      ],
+      "exclude_matches": [
+        "https://bubblehacks.io/charles"
+      ],
+      "js": [
+        "CustomJavaScript/customScript1.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/16x16.png",
+      "32": "images/32x32.png",
+      "48": "images/48x48.png",
+      "128": "images/128x128.png"
+    }
+  },
+  "icons": {
+    "16": "images/16x16.png",
+    "32": "images/32x32.png",
+    "48": "images/48x48.png",
+    "128": "images/128x128.png"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ]
+}

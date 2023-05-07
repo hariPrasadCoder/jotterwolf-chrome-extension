@@ -1,0 +1,40 @@
+LICENSE.txt
+
+Copyright (C) 2023 NC Labs GmbH, Switzerland
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this source code and associated documentation files (the "Source Code"), to deal
+in the Source Code without restriction, including without limitation the rights
+to use, copy, modify, and merge the Source Code for the purpose of creating
+Chrome Extensions for personal use or for the user's clients, subject to the
+following conditions:
+
+1. The user has the right to use the Source Code privately and commercially to
+build their own Chrome Extensions or Chrome Extensions for their clients.
+
+2. Any kind of reselling, redistributing, or using the Source Code in any way
+that is competitive to the original product is strictly prohibited.
+
+3. Distribution of the Source Code or any substantial portion of the Source Code
+in any form is strictly prohibited.
+
+4. Altering the Source Code and reselling or redistributing the altered Source Code
+is strictly prohibited.
+
+5. The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Source Code.
+
+THE SOURCE CODE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOURCE CODE OR THE USE OR OTHER DEALINGS IN THE
+SOURCE CODE.
+
+Note that any violation of the aforementioned conditions will result in the
+termination of your license to use the Source Code and may lead to legal action
+against you.
+
+By using the Source Code, you acknowledge and agree to comply with the terms
+and conditions of this license. Failure to do so may result in legal action.

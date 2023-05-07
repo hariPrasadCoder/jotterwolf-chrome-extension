@@ -1,0 +1,1 @@
+alert("file 2 injected");
